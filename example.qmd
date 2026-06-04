@@ -1,7 +1,7 @@
 ---
 title: "Pop Art Gallery"
 format: html
-gallery:
+popart-gallery:
   colors:
     - "#E63946"
     - "#A8DADC"
@@ -9,20 +9,18 @@ gallery:
     - "#F4A261"
     - "#2A9D8F"
   items:
-    - src: photos/img5.jpg
-    - src: photos/img1.jpg
+    - src: images/img1.jpg
       text: "Photo One"
       link: https://example.com/1
-    - src: photos/img4.jpg
-      text: "Photo Four"
-      link: https://example.com/4
-    - src: photos/img2.jpg
+    - src: images/img2.jpg
       text: "Photo Two"
       link: https://example.com/2
-    - src: photos/img3.jpg
-
-
-    - src: photos/img6.jpg
+    - src: images/img3.jpg
+    - src: images/img4.jpg
+      text: "Photo Four"
+      link: https://example.com/4
+    - src: images/img5.jpg
+    - src: images/img6.jpg
       text: "Photo Six"
 ---
 

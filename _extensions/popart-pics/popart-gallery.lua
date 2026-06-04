@@ -16,10 +16,10 @@ return {
       css_injected = true
     end
 
-    local gallery_meta = meta['gallery']
+    local gallery_meta = meta['popart-gallery']
     if not gallery_meta then
-      quarto.log.warning("popart-gallery: no 'gallery' key found in YAML front matter.")
-      return pandoc.RawBlock("html", "<!-- popart-gallery: missing gallery metadata -->")
+      quarto.log.warning("popart-gallery: no 'popart-gallery' key found in YAML front matter.")
+      return pandoc.RawBlock("html", "<!-- popart-gallery: missing popart-gallery metadata -->")
     end
 
     local colors = {}
@@ -29,7 +29,7 @@ return {
       end
     end
     if #colors == 0 then
-      colors = { "#E63946", "#A8DADC", "#457B9D" }
+      colors = { "#e66739", "#A8DADC", "#457B9D" }
     end
 
     local items = {}
